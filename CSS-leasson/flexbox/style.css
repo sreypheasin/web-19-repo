@@ -1,0 +1,12 @@
+.box {
+  width: 350px;
+  height: 350px;
+  background-color: plum;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}

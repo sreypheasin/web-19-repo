@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>box model</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .box1 {
+        height: 70vh;
+      }
+      .box {
+        width: 100%;
+        height: 500px;
+        padding: 20px;
+        background-image: url("https://i.pinimg.com/564x/59/fa/1b/59fa1b24b7888cdfcaed3dfad62d027d.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: local;
+        background-attachment: scroll;
+      }
+      .size {
+        width: 100%;
+        height: 500px;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates
+      dignissimos nobis perspiciatis fugit saepe eius fuga mollitia ullam est
+      nihil, iure ratione tempora voluptatum laborum ipsa. Natus, animi
+      obcaecati. Soluta similique saepe cumque impedit ut explicabo. Omnis
+      consequatur veritatis distinctio debitis, quas reiciendis ad numquam magni
+      saepe vitae deserunt doloribus deleniti? Mollitia animi necessitatibus ex
+      deleniti, error cum, architecto ea maiores, ratione iusto qui cupiditate
+      vero temporibus dolores. Quia nihil porro velit architecto rem nemo, nulla
+      quidem ut placeat, laboriosam corporis dolor beatae illum perspiciatis
+      quas molestiae excepturi nisi magnam animi doloribus sunt adipisci cum?
+      Incidunt, odit! Inventore, eveniet ea?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates
+      dignissimos nobis perspiciatis fugit saepe eius fuga mollitia ullam est
+      nihil, iure ratione tempora voluptatum laborum ipsa. Natus, animi
+      obcaecati. Soluta similique saepe cumque impedit ut explicabo. Omnis
+      consequatur veritatis distinctio debitis, quas reiciendis ad numquam magni
+      saepe vitae deserunt doloribus deleniti? Mollitia animi necessitatibus ex
+      deleniti, error cum, architecto ea maiores, ratione iusto qui cupiditate
+      vero temporibus dolores. Quia nihil porro velit architecto rem nemo, nulla
+      quidem ut placeat, laboriosam corporis dolor beatae illum perspiciatis
+      quas molestiae excepturi nisi magnam animi doloribus sunt adipisci cum?
+      Incidunt, odit! Inventore, eveniet ea?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates
+      dignissimos nobis perspiciatis fugit saepe eius fuga mollitia ullam est
+      nihil, iure ratione tempora voluptatum laborum ipsa. Natus, animi
+      obcaecati. Soluta similique saepe cumque impedit ut explicabo. Omnis
+      consequatur veritatis distinctio debitis, quas reiciendis ad numquam magni
+      saepe vitae deserunt doloribus deleniti? Mollitia animi necessitatibus ex
+      deleniti, error cum, architecto ea maiores, ratione iusto qui cupiditate
+      vero temporibus dolores. Quia nihil porro velit architecto rem nemo, nulla
+      quidem ut placeat, laboriosam corporis dolor beatae illum perspiciatis
+      quas molestiae excepturi nisi magnam animi doloribus sunt adipisci cum?
+      Incidunt, odit! Inventore, eveniet ea?
+    </p>
+    <!-- TODO: background-attachment -->
+    <h2><code>scroll (default)</code></h2>
+    <div class="scroll">
+      <div class="expand">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates
+        dignissimos nobis perspiciatis fugit saepe eius fuga mollitia ullam est
+        nihil, iure ratione tempora voluptatum laborum ipsa. Natus, animi
+        obcaecati. Soluta similique saepe cumque impedit ut explicabo. Omnis
+        consequatur veritatis distinctio debitis, quas reiciendis ad numquam
+        magni saepe vitae deserunt doloribus deleniti? Mollitia animi
+        necessitatibus ex deleniti, error cum, architecto ea maiores, ratione
+        iusto qui cupiditate vero temporibus dolores. Quia nihil porro velit
+        architecto rem nemo, nulla quidem ut placeat, laboriosam corporis dolor
+        beatae illum perspiciatis quas molestiae excepturi nisi magnam animi
+        doloribus sunt adipisci cum? Incidunt, odit! Inventore, eveniet ea?
+      </div>
+    </div>
+
+    <h2><code>fixed</code></h2>
+    <div class="fixed">
+      <div class="expand"></div>
+    </div>
+
+    <h2><code>local</code></h2>
+    <div class="local">
+      <div class="expand">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates
+        dignissimos nobis perspiciatis fugit saepe eius fuga mollitia ullam est
+        nihil, iure ratione tempora voluptatum laborum ipsa. Natus, animi
+        obcaecati. Soluta similique saepe cumque impedit ut explicabo. Omnis
+        consequatur veritatis distinctio debitis, quas reiciendis ad numquam
+        magni saepe vitae deserunt doloribus deleniti? Mollitia animi
+        necessitatibus ex deleniti, error cum, architecto ea maiores, ratione
+        iusto qui cupiditate vero temporibus dolores. Quia nihil porro velit
+        architecto rem nemo, nulla quidem ut placeat, laboriosam corporis dolor
+        beatae illum perspiciatis quas molestiae excepturi nisi magnam animi
+        doloribus sunt adipisci cum? Incidunt, odit! Inventore, eveniet ea?
+      </div>
+    </div>
+    <br class="space" />
+    <!-- background-attachment -->
+  </body>
+</html>

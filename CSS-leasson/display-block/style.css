@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+.box {
+  width: 1300px;
+}
+.box1-3 {
+  background-color: darkblue;
+  height: 250px;
+}
+.box-2 {
+  background-color: red;
+  height: 450px;
+  padding-top: 70px;
+}
+img {
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin: auto;
+}
+
+/* demo display value */
+span {
+  border: 1px solid red;
+  display: block;
+  /* margin: 50px;
+  width: 500px;
+  height: 100px; */
+}

@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  /* display: flex; */
+  /* justify-content: space-evenly; */
+  width: 50%;
+  height: 150vh;
+  background-color: beige;
+  position: relative;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: plum;
+  margin: 20px;
+}
+
+.box1 {
+  position: relative;
+  right: 100px;
+  z-index: 1;
+}
+.box2 {
+  position: absolute;
+  right: 800px;
+}
+.box3 {
+  position: fixed;
+  top: 0px;
+  background-color: lightgreen;
+  left: 200px;
+  /* z-index: ; */
+}
+.box4 {
+  position: sticky;
+  top: 0px;
+  background-color: lightblue;
+}
+.box5 {
+  position: static;
+  left: 100px;
+  background-color: lightsalmon;
+}

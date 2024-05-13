@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- AOS Style -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Use AOS Scrolling animation</title>
+    <style>
+      .section1 {
+        height: 100vh;
+        background-color: pink;
+        margin-bottom: 70px;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 400px;
+        gap: 10px;
+      }
+      .card {
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="section1">
+        <p>section1</p>
+      </section>
+      <div class="container">
+        <div class="card card1" data-aos="fade-up" data-aos-duration="">1</div>
+        <div class="card card2" data-aos="flip-up" data-aos-duration="2000">
+          2
+        </div>
+        <div class="card card3" data-aos="fade-up">3</div>
+        <div class="card card4">4</div>
+      </div>
+      <img src="./image/Car driving.gif" alt="card">
+    </main>
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

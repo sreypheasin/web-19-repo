@@ -1,0 +1,33 @@
+/* background attachment style */
+h2 {
+  text-align: center;
+  margin-top: 48px;
+}
+
+div {
+  height: 200px;
+  width: 50%;
+  max-width: 600px;
+  margin: 32px auto;
+  overflow-x: hidden;
+}
+
+.scroll {
+  background: url("https://i.pinimg.com/564x/a6/dc/c3/a6dcc3e8d74f70dbce72e6204c49ede9.jpg");
+  background-attachment: scroll;
+}
+
+.fixed {
+  background: url("https://i.pinimg.com/564x/a6/dc/c3/a6dcc3e8d74f70dbce72e6204c49ede9.jpg");
+  background-attachment: fixed;
+}
+
+.local {
+  background: url("https://i.pinimg.com/564x/a6/dc/c3/a6dcc3e8d74f70dbce72e6204c49ede9.jpg");
+  background-attachment: local;
+}
+
+.expand {
+  height: 400px;
+  width: 100%;
+}

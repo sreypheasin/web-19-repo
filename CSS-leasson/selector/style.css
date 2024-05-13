@@ -1,0 +1,42 @@
+/* Attribute selector */
+/* a[target="_blank"] {
+  color: red;
+}
+a {
+  color: palevioletred !important;
+} */
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: sandybrown;
+  margin: 20px;
+  overflow: hidden;
+}
+/* group selector */
+h1,
+p {
+  color: palevioletred;
+}
+/* combinator  selector */
+div h2 {
+  color: blue;
+}
+div > h2 {
+  color: green;
+}
+
+/*  */
+a:hover {
+  color: red;
+}
+a:visited {
+  color: green;
+}
+p::first-line {
+  color: red;
+}
+p::first-letter {
+  color: green;
+  font-size: 32px;
+}

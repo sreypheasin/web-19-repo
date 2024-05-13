@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table in HTML</title>
+  </head>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+  </style>
+  <body>
+    <table border="1" width="500" align="center">
+      <colgroup>
+        <col span="3" bgcolor="#e7fee3" />
+      </colgroup>
+      <caption>
+        My Table Caption
+      </caption>
+      <thead>
+        <tr bgcolor="#e6f0f4">
+          <th rowspan="2">Name</th>
+          <th rowspan="2">ID</th>
+          <th colspan="2">Membership Date</th>
+          <th rowspan="2">Balance</th>
+        </tr>
+        <tr>
+          <th bgcolor="#e7fee3">Joined</th>
+          <th bgcolor="#fae2e2">Canceled</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sreyphea</td>
+          <td>1001</td>
+          <td>12-04-2022</td>
+          <td>1-04-2023</td>
+          <td>1000$</td>
+        </tr>
+        <tr>
+          <td>Kimlang</td>
+          <td>1002</td>
+          <td>12-04-2022</td>
+          <td>1-04-2023</td>
+          <td>1000$</td>
+        </tr>
+        <tr>
+          <td>Youlong</td>
+          <td>1003</td>
+          <td>12-04-2022</td>
+          <td>1-04-2023</td>
+          <td>1000$</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr
+          background="https://piktochart.com/wp-content/uploads/2023/05/large-157-600x338.jpg"
+        >
+          <td colspan="4">Total Balance</td>
+          <td>3000$</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
